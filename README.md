@@ -1,0 +1,2 @@
+# E-Commerce_Website
+This is an E-Commerce website in which there’s a user panel and an admin Panel. User can Register, Login and add items to his/her cart and place the order. On the other hand, Admin has the advantage of updating any of the user’s status and can add or delete products from the website and have the database of each and every order placed so far. Technology Used: - JavaScript, HTML, CSS, JSON.
