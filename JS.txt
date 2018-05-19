@@ -1,0 +1,26 @@
+Curl:
+
+
+
+browser is a machine to understand html
+understand complete functionality of browser
+
+functions:
+> represents the complete document in tree structure.
+>cant work on file directly
+>DOM: document object model
+>displays with the help of DOM
+
+
+>3 parts:
+User screen
+DOM
+HTML file
+
+Traversing a node:
+>getElementById
+
+
+>JS is not allowed critical resoureces of the system
+>i.e it can not work outside the DOM/no access outside the DOM.
+>

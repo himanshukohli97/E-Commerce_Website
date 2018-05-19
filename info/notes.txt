@@ -1,0 +1,7 @@
+CDN: content delivery network
+reliable:google
+
+$(document).ready(function(){
+
+
+});

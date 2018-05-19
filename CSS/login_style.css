@@ -1,0 +1,44 @@
+body{
+	font-family:Arial,Helvitica,sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	background-color:#f4f4f4;
+	
+}
+.container{
+	width:80%;
+	margin-left:1%;
+	overflow:hidden;
+}
+
+header{
+	background-color:#000000;
+	color:#000000;
+	height:15%;
+	padding-top:02%;
+	padding-bottom:02%;
+	min-height:02%;
+	border-bottom:#f4f4f4 4px solid;
+}
+header #branding{
+	float:left;
+}
+header #branding_tagline{ 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+}
+header #img1{
+	width:30%;
+	height:100%;
+}
+footer{
+	height:5%;
+	padding-bottom:80px;
+	background-color:#000000;
+	color:#ffffff;
+	border-bottom:#ffffff 4px solid;
+	text-align:center;
+}

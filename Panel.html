@@ -1,0 +1,73 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="./CSS/login_style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+					$(document).ready(function(){
+						
+						$("#img1").mouseenter(function(){
+							$("#branding_tagline").slideDown("slow");
+						});
+						$("#img1").mouseleave(function(){
+							$("#branding_tagline").slideUp("slow");
+						});
+						
+					});
+				</script>
+</head>
+<body>
+
+<header>
+<div class="container">
+				<div id="branding">
+					<img id="img1" src="./IMAGE/chitkara_logo.jpg">
+				</div>
+				<div id="branding_tagline" style="display:none">
+					Knowledge is the true power
+				</div>
+				
+			</div>
+</header>
+
+
+<div style="padding:2px;border:1px solid black;height:80%">
+	<div style="width:74.2%;float:left;height:15%;border:1px solid black">
+		<h1 style="text-align:left;float:left;padding-left:57%;padding-right:1%">WELCOME</h1> 
+		<h2 style="padding-top:1%"><u>ABC</u></h2> 
+	</div>
+	<div style="width:25%;float:right;height:15%;position:relative;border:1px solid black">
+		<div id="date" style="float:left;margin-top:14%;padding-right:0%;padding-left:60%"></div>
+			<button style="float:right;margin-top:13%">Logout</button>
+	</div>
+	
+	
+	<div style="margin-top:10px;height:80%;border:1px solid black;float:left;width:19.5%;position:relative">
+		<div style="margin:12px;height:20%;border:1px solid black;width:90%;position:relative">	<button id="home" style="width:70%;margin-left:15%;margin-right:15%;height:90%;margin-top:1%">HOME</button>	</div>
+		<div style="margin:12px;height:20%;border:1px solid black;width:90%;position:relative"><button id="users" style="width:70%;margin-left:15%;margin-right:15%;height:90%;margin-top:1%">USERS</button></div>
+		<div style="margin:12px;height:20%;border:1px solid black;width:90%;position:relative"><button id="orders" style="width:70%;margin-left:15%;margin-right:15%;height:90%;margin-top:1%">ORDERS</button></div>
+		<div style="margin:12px;height:20%;border:1px solid black;width:90%;position:relative"><button id="products" style="width:70%;margin-left:15%;margin-right:15%;height:90%;margin-top:1%">PRODUCTS</button></div>
+		
+	</div>
+	<div id="display" style="margin-top:10px;height:80%;border:1px solid black;float:right;width:80%;position:relative">
+	
+	
+	
+	</div>
+	
+
+</div>
+
+
+<footer><p>CHITKARA web design<br>Copyright &copy<br> 2018</p></footer>
+<script type="text/javascript" src="admin_panel.js"></script>
+<script type="text/javascript">
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+</script>
+</body>
+
+</html>
